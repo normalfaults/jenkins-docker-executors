@@ -4,7 +4,7 @@ This is a docker image that contains Jenkins, and has the ability to run docker,
 (crazy, I know).
 
     
-    docker run -p 8080:8080 -privileged michaelneale/jenkins-docker-executors
+    docker run -p 8080:8080 --privileged michaelneale/jenkins-docker-executors
 
 
 This will download, and then run Jenkins in a docker container - on port 8080. 
